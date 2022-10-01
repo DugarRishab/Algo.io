@@ -12,6 +12,7 @@ git clone https://github.com/DugarRishab/Algo.io
 ## 2. Make changes to the code
 - Add all the necessary changes. 
 - Make sure to provide an explanation of the code in the comments at the top. Example
+  
   ```
   /*
   This algo uses 2 pointer method. 1st Pointer moves from the beginiing to the 2nd last of the element and the 2nd Pointer always moves 1 element ahead of the 1st pointer
@@ -29,4 +30,11 @@ git clone https://github.com/DugarRishab/Algo.io
 
 # PR Guidelines
 
-// more is soon coming..
+- Use the PR template provided
+- Only refer a PR to an issue if you were assigned to that PR
+
+# Folder and File name Guildlines: 
+
+- ALways name the folders with the question number and question title. Example: Q15_3Sum
+- Always place any solution inside the respective question folder. 
+- ALways name the file with the question number and question title. Example: Q15_3Sum.cpp or Q15_3Sum.js
