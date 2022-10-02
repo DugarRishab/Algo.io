@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 
 class Solution {
 public:
@@ -5,15 +7,15 @@ public:
         int idx=-1;
   
         int n = a.size();
-        for(int i=n-1; i>0; i--){
+        for(int i=n-1; i>0; i--){                            
             if(a[i]>a[i-1]){
                 idx=i;
                 break;
             }
         }
-        if(idx == -1){
+        if(idx == -1){                                     // if does not have a lexicographical larger rearrangement.
             reverse(a.begin(), a.end());
-        }else{
+        }else{                                           
             int prev = idx;
             for(int i=idx+1; i<n; i++){
                 if(a[i]>a[idx-1] and a[i]<=a[prev]){
