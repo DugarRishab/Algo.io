@@ -7,12 +7,10 @@ _This is a template on how to fill out a PR properly._
 - Language Used:  		
 - Approach Used: 		
 - Question(s) Solved:	
-- Issue(s) Closes: 
+- Issue(s) related: 
 <!-- Now Describe the below mentioned questions in details -->
 
 <!-- What question does this code solves? OR What does this code do? Why did I choose this approach? Did I learn anything worth sharing? Reminder: This will be a publicly facing representation of your work (READ: help you land that sweet dev gig). -->
-
-<!-- If you write "closes" followed by the Github issue number, it will automatically close the issue for you when the PR merges -->
 
  
 ## Related Issue
