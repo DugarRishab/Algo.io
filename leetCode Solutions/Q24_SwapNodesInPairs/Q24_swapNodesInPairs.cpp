@@ -11,18 +11,20 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        //Solution using recursion
-        
-        if(head == NULL || head -> next == NULL) 
-        {
-            return head;
-        }
-        //Create a node such that it becomes the next of head
-        ListNode* temp; 
-        temp = head->next;
-        head->next = swapPairs(head->next->next); 
+        // if the head is itself NULL then the linked list doesnt exist
+        // if the next of head is null then it contains only one node 
+        if(head == NULL || head->next == NULL){return head;}
+        // in both above senario we have to return our head only
+
+
+        // in this step we first create a dummy node with head->next's data
+        ListNode* temp = head->next;
+
+        //we recursively call the function for next node and it will call further one
+        head->next = swapPairs(head->next->next);
+        // we connect our temp node's next to head in order to swap it
         temp->next = head;
-        
+        //finally we return the list
         return temp;
     }
 };
