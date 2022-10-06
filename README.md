@@ -1,8 +1,7 @@
 # Algo.io
 
-From solutions of Leet code in various languages to list of important algorithms for developers, we have everything
-
-| **Open Source** | **Hactoberfest** |
+A website with all your DSA needs
+**Open Source** | **Hactoberfest** |
 
 ## Want to Contribute? Great !!
 
