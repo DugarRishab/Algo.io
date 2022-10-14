@@ -1,0 +1,22 @@
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .main_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  .main_title {
+    position: absolute;
+    bottom: 35%;
+    left: 10%;
+    color: white;
+    font-size:8vw;
+    padding: 15px;
+  }
+  
