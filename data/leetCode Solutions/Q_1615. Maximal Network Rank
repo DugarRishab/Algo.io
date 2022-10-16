@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int max(int a,int b){return a>b?a:b;}
+    int maximalNetworkRank(int n, vector<vector<int>>& roads) {
+
+        map<int,set<int>>m;
+        vector<int>deg(n,0);
+        
+        for(auto x:roads){
+            m[x[0]].insert(x[1]);
+            m[x[1]].insert(x[0]);
+            deg[x[0]]++,deg[x[1]]++;
+        }
+        int ans=0;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                int z=0;
+                if(i!=j)                                                                       
+                 z=deg[i]+deg[j]+(m[i].find(j)!=m[i].end() ? -1 : 0); //checking  node i is connnected to j or not 
+                ans=max(ans,z);
+            }
+        }
+        return ans;    
+    }
+};
