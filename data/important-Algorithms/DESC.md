@@ -1,13 +1,13 @@
 # Important Algorithms for Developers
 
-### Searching Algorithms:
+## Searching Algorithms:
 
-1. Binary Search
-- Iterative approach
-- Recursive approach
-2. Two Pointer approach
+- [ ] Binary Search
+  - [ ] Iterative approach
+  - [ ] Recursive approach
+  - [ ] Two Pointer approach
 
-### Sorting Algorithms:
+## Sorting Algorithms:
 
 1. Bubble Sort
 2. Selection Sort
